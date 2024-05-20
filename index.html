@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- FIM -->
+    <link rel="stylesheet" href="style.css">
+    <title>Porfolio Pessoal</title>
+</head>
+<body>
+    
+    <header> <!--Tag que limita as laterais do site-->
+        <div class="interface">
+            <div class="logo">
+                <a href="#">
+                    <img src="images/logo.png" alt="Logo do Portfolio Pessoal">
+                </a>
+            </div><!--logo-->
+
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="#">Sobre Mim</a></li>
+                    <li><a href="#">Formação</a></li>
+                    <li><a href="#">Portfólio</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+
+            <div class="btn-contato">
+                <a href="#">
+                    <button>Contato</button>
+                </a>
+            </div><!--btn-contato-->
+
+            <div class="menu-mobile">
+                <nav>
+                    <ul>
+                        <li><a href="#">Sobre</a></li>
+                        <li><a href="#">Formação</a></li>
+                        <li><a href="#">Portfólio</a></li>
+                        <li><a href="#">Contato</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                </nav>
+
+            </div><!--menu-mobile-->
+
+
+        </div><!--interface-->
+    </header>
+
+    <main>
+        <section class="topo-do-site">
+            <div class="interface">
+                <div class="flex">
+                    <div class="img-topo-site">
+                        <img src="images/perfil.png" alt="">
+                    </div><!--img-topo-site-->
+
+                    <div class="txt-topo-site">
+                        <h1>MUITO PRAZER, <span>SOU ERYKSON XAVIER.</span></h1>
+                        <p>Estou me graduando em ciência de dados e atuo como analista jurídico no mercado jurídico.
+  
+                        <p>Minha principal responsabilidade é realizar a análise e controle do protocolo de ações judiciais da carteira de clientes através do software integrado de gestão jurídica do escritório. 
+                            Esse controle visa aumentar a qualidade e produtividade das demandas jurídicas, consequentemente aumentando o faturamento do escritório.</p>
+                            
+                        <p>Paralelamente às minhas atividades profissionais, atuo em projetos pessoais de Data Science, para ganhar experiência na resolução de problemas de negócio e domínio de ferramentas de análise de dados.</p>
+                        
+                        <p>Como acadêmico de ciência de dados, continuo evoluindo, sempre me esforçando para aprender habilidades para me tornar um Cientista de Dados independente, capaz de construir um projeto ponta a ponta, 
+                        desde a coleta de dados até a criação e implantação de modelos de ML.</p>
+
+                        <p>Alguns dos meus hoobies são jogar futebol, assistir animes e viajar.</p>
+                        <div class="btn-contato">
+                            <a href="#">
+                                <button>Entre em contato</button>
+                            </a>
+                        </div>
+                    </div><!--txt-topo-site-->
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--topo-do-site-->
+
+        <section class="Formação">
+            <div class="interface">
+                <h2 class="titulo">MINHA <span>FORMAÇÃO</span></h2>
+                <div class="flex">
+                    <div class="formação-box">
+                        <h3>Graduação</h3>
+                        <p>• Graduando em ciência de dados pelo Centro Universitário Internacional UNINTER.</p>
+                        <p>• Ensino médio completo pelo Colégio e Curso Miguel Couto.</p>
+                    </div><!--formação-->
+
+                    <div class="formação-box">
+                        <h3>Idiomas</h3>
+                        <p>• Português Fluente.</p>
+                        <p>• Inglês Avançado.</p>
+                        <p>• Espanhol Intermediário.</p>
+                    </div><!--formação-->
+
+                    <div class="formação-box">
+                        <h3>Cursos Extras</h3>
+                        <p>• Curso de Análise de Dados com Python - Comunidade DS.</p>
+                        <p>• Curso de Excel Avançado - Udemy.</p>
+                        <p>• Lean Six Sigm Yellow Belt - FM2S Educação e Consultoria.</p>
+                    </div><!--formação-->
+
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--Formação-->
+
+        <section class="portfolio">
+            <div class="interface">
+                <h2 class="titulo">MEU <span>PORTFÓLIO</span></h2>
+                <div class="flex">
+
+                    <a href="https://github.com/eryksonxavier/ZomatoRestaurants" target="_blank">
+
+                    <div class="img-port" style="background-image: url(images/imagem.jpeg);">
+                        <div class="overlay">Projeto de Análise de Dados</div>
+                    </div>
+                    </a>
+
+                    <div class="img-port" style="background-image: url(images/imagem2.jpeg);">
+                        <div class="overlay">Projeto2</div>
+                    </div>
+                    
+                    <div class="img-port" style="background-image: url(images/imagem3.jpeg);">
+                        <div class="overlay">Projeto3</div>
+                    </div>
+                </div>
+            </div><!--interface-->
+        </section><!--portfolio-->
+
+        <section class="formulario">
+            <div class="interface">
+                <h2 class="titulo">FALE <span>COMIGO</span></h2>
+
+                <form action="">
+                    <input type="text" name="" id="" placeholder="Seu nome completo:" required>
+                    <input type="text" name="" id="" placeholder="Seu e-mail:" required>
+                    <input type="text" name="" id="" placeholder="Seu celular:">
+                    <textarea name="" id="" placeholder="Sua mensagem" required></textarea>
+                    <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
+                </form>
+            </div><!--interface-->
+        </section><!--formulario-->
+
+    </main>
+
+    <footer>
+        <div class="interface">
+            <div class="line-footer">
+                <div class="flex">
+                    <div class="logo-footer">
+                        <img src="images/logo.png" alt="Logotipo Portfólio Pessoal"
+                    </div><!--logo-footer-->
+                    <div class="btn-social">
+                        <a href="#"></a>
+                        <a href="#"></a>
+                        <a href="#"></a>
+                    </div><!--btn-social-->
+                </div>
+            </div><!--line-footer-->
+
+            
+            <div class="line-footer borda">
+                <p><a href="mailto:erykson.soares@gmail.com">erykson.soares@gmail.com</a></p>
+            </div><!--line-footer-->
+        </div><!--interface-->
+    </footer>
+
+</body>
+</html>
+
+
